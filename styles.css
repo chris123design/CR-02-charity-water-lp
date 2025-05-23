@@ -1,19 +1,33 @@
-/* charity: water Brand Colors & Fonts
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hero Section Example</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-Primary Colors:
-- Yellow:     #FFC907
-- Blue:       #2E9DF7
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay">
+      <h1>Welcome to Our Website</h1>
+      <p>Your success starts here. Join us today and make a difference!</p>
+      <a href="#signup" class="cta-button">Get Started</a>
+    </div>
+  </section>
 
-Secondary Colors:
-- Light Blue: #8BD1CB
-- Green:      #4FCB53
-- Orange:     #FF902A
-- Red:        #F5402C
-- Dark Green: #159A48
-- Pink:       #F16061
+  <!-- Value Proposition Section -->
+  <section class="value-prop">
+    <h2>Why Choose Us?</h2>
+    <p>We offer unparalleled service, innovative solutions, and a dedicated team to support your goals.</p>
+  </section>
 
-Fonts:
-- Proxima Nova
-- Avenir
+  <!-- Footer -->
+  <footer class="footer">
+    &copy; 2025 Your Company Name. All rights reserved.
+  </footer>
 
-*/
+</body>
+</html>
