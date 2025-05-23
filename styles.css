@@ -1,4 +1,16 @@
 /* Reset & Base Styles */
+.site-header {
+  padding: 1rem;
+  text-align: center;
+  background-color: #fff; /* or your brand color */
+}
+
+.site-header img {
+  max-width: 150px;
+  height: auto;
+  margin: 0 1rem;
+  vertical-align: middle;
+}
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +26,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background: url("img/hero.webp") no-repeat center center/cover;
+  background: url('img/hero-water.webp') no-repeat center center/cover;;
   height: 100vh;
   display: flex;
   align-items: center;
