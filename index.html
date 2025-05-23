@@ -2,52 +2,167 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Charity: Water – Make a Real Impact</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Charity: Water College Campaign</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+  <style>
+    /* Reset & Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .site-header {
+      padding: 1rem;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .site-header img {
+      max-width: 150px;
+      height: auto;
+      margin: 0 1rem;
+      vertical-align: middle;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://www.charitywater.org/_nuxt/img/home-hero.2579e5b.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      color: white;
+    }
+
+    .hero .overlay {
+      background: rgba(0, 51, 102, 0.6);
+      padding: 2rem;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .hero .overlay:hover {
+      transform: scale(1.02);
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .cta-button {
+      background-color: #0077cc;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+      margin: 0.5rem;
+    }
+
+    .cta-button:hover {
+      background-color: #005fa3;
+    }
+
+    /* Value Proposition Section */
+    .value-prop {
+      padding: 3rem 1rem;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .value-prop h2 {
+      color: #0077cc;
+      margin-bottom: 1rem;
+    }
+
+    /* Footer */
+    .footer {
+      background: #f4f4f4;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    /* Responsive Layout */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .cta-button {
+        padding: 0.6rem 1rem;
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <!-- Hero Section -->
+
   <header class="site-header">
-  <img src="img/cw_logo.png" alt="Charity Water Logo" class="logo" />
-  <h1>TURN COMPASSION INTO CLEAN WATER</h1>
-    <p>Your donation helps real people — and you'll track every step of the journey.</p>
-    <a href="#donate" class="cta-button">Donate Now</a>
-    <a href="#join" class="cta-button secondary">Join the Movement</a>"
-    <section class="impact">
-    <p>771 million people lack clean water — leading to illness, missed school, and lost potential. But clean water changes everything.</p>
-    <p>We believe in radical transparency. You'll see where every dollar goes.</p>
-    <p>Water is a basic human right. Help make it real.</p>
-  </section class="why-different">
-    <h2>Why We're Different</h2>
-    <ul>
-      <li>100% of public donations fund clean water projects.</li>
-      <li>We prove every project with photos and GPS coordinates.</li>
-      <li>We work with local partners for long-term solutions.</li>
-    </ul>
+    <img src="https://www.charitywater.org/_nuxt/img/logo-yellow.716200f.svg" alt="Charity: Water Logo">
+  </header>
+
+  <section class="hero">
+    <div class="overlay">
+      <h1>TURN COMPASSION INTO CLEAN WATER</h1>
+      <p>Your voice and action as a student can make a global difference.</p>
+      <a href="https://www.charitywater.org/donate" class="cta-button">Donate Now</a>
+      <a href="https://www.charitywater.org/join" class="cta-button">Join the Movement</a>
+    </div>
   </section>
 
-</header>
-
-  <section class="story">
-    <h2>Meet Amina: A Story of Change</h2>
-    <img src="img/hero-water.webp"
-    <p>
-    <strong>Amina used to walk 6 hours every day for water.</strong> Now, thanks to Charity: Water supporters, 
-    she goes to school and dreams of becoming a nurse. Your donation made that possible.
-    
-  </section> 
-  <footer>
-    <h3>TOGETHER. WE CAN MAKE A DIFFERENCE.</h3>
-  </footer>
-</body>
-</html>
-    </p>
+  <section class="value-prop">
+    <h2>Why College Students?</h2>
+    <p>We believe in the energy and passion of young people. With your help, we can build a wave of change through small efforts that lead to lasting impact.</p>
   </section>
-  <!-- Footer -->
+
+  <section class="value-prop">
+    <h2>Meet Amina</h2>
+    <p>Before a Charity: Water project reached her village, Amina walked hours for unsafe water. Now, she spends her time in school, smiling with clean water close to home.</p>
+    <img src="https://www.charitywater.org/_nuxt/img/hero-water.94f2f07.jpg" alt="Amina" style="max-width:100%; border-radius: 10px; margin-top: 1rem;">
+  </section>
+
+  <section class="value-prop">
+    <h2>Every $40 = Clean Water for One Person</h2>
+    <p>100% of your donation goes directly to water projects. You'll receive updates, photos, and GPS of the exact community you helped.</p>
+    <a href="https://www.charitywater.org/donate" class="cta-button">Give Water</a>
+  </section>
+
+  <section class="value-prop">
+    <h2>Start a Fundraiser</h2>
+    <p>Whether it’s your birthday, graduation, or a group challenge — turn any event into a way to bring clean water to those in need.</p>
+    <a href="https://www.charitywater.org/start-a-campaign" class="cta-button">Fundraise Now</a>
+  </section>
+
   <footer class="footer">
-    <p>© 2025 Charity: Water Campaign · Built by Christopher Bajomo</p>
+    © 2025 Charity: Water Campaign · Built by Christopher Bajomo
   </footer>
+
 </body>
 </html>
+
